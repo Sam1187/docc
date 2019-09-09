@@ -98,7 +98,7 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'js'], function() {
 gulp.task('deploy', function() {
 
 	var conn = ftp.create({
-		host:      'hostname.com',
+		host:      'docc.cn.ua',
 		user:      'username',
 		password:  'userpassword',
 		parallel:  10,
